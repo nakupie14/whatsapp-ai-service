@@ -1,0 +1,61 @@
+# 50 sample leads for training the ML model
+# Format: (message, label)
+# Labels: 0 = Cold, 1 = Warm, 2 = Hot
+
+TRAINING_DATA = [
+    # HOT LEADS (label = 2)
+    ("I need 10 AC units urgently for my office building", 2),
+    ("Need bulk order with pricing urgently asap", 2),
+    ("What is the cost for 50 units? Need quote today", 2),
+    ("Ready to purchase, need invoice immediately", 2),
+    ("Can I get a demo today? Ready to sign up now", 2),
+    ("Need bulk installation for our new factory urgently", 2),
+    ("Please send price list asap, need to order today", 2),
+    ("How much for 20 units? We want to buy immediately", 2),
+    ("Urgent requirement for AC units, please call back", 2),
+    ("We need to place order today, what is best price", 2),
+    ("Need installation done by tomorrow, is it possible", 2),
+    ("Want to purchase right away, send payment details", 2),
+    ("Bulk order for hotel, need pricing urgently", 2),
+    ("Ready to buy 15 units, need delivery this week", 2),
+    ("Need quote for 30 ACs for office complex asap", 2),
+    ("Can you come for demo today, we want to finalize", 2),
+    ("Need to sign contract this week, send details", 2),
+    ("Urgent order for hospital, how fast can you deliver", 2),
+
+    # WARM LEADS (label = 1)
+    ("I am interested in your AC services", 1),
+    ("Can you tell me more about your products", 1),
+    ("What features do your AC units have", 1),
+    ("I would like to know more about installation", 1),
+    ("Do you have any ongoing offers or discounts", 1),
+    ("Can you explain the difference between models", 1),
+    ("I need AC for my home, what do you recommend", 1),
+    ("How long does installation usually take", 1),
+    ("Do you provide after sales service and warranty", 1),
+    ("Interested in your services, what are the charges", 1),
+    ("Looking for good AC brand, can you help", 1),
+    ("Can you send me your product catalogue", 1),
+    ("What brands do you carry in your store", 1),
+    ("I need AC for 3 rooms, what would you suggest", 1),
+    ("Is there any EMI option available for purchase", 1),
+    ("How many years warranty do you provide", 1),
+    ("Can you visit my house and give a recommendation", 1),
+
+    # COLD LEADS (label = 0)
+    ("Just browsing, not sure if I need this right now", 0),
+    ("Maybe later, still thinking about it", 0),
+    ("Not sure, will get back to you someday", 0),
+    ("Just checking prices, no immediate requirement", 0),
+    ("Might consider next year when budget allows", 0),
+    ("Just curious about your services nothing urgent", 0),
+    ("No budget right now, will contact later", 0),
+    ("Too expensive for me at the moment", 0),
+    ("Just looking around, not ready to buy", 0),
+    ("Will think about it and let you know", 0),
+    ("Not sure if I need AC, still deciding", 0),
+    ("Just wanted to know what you sell", 0),
+    ("No plans to buy right now just checking", 0),
+    ("Maybe someday, not anytime soon though", 0),
+    ("Just checking, my friend told me about you", 0),
+]
